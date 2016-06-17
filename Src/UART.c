@@ -26,22 +26,22 @@ uint8_t testMessage1[] = "UART1 loop back demonstration\r\n";
 uint8_t testMessage2[] = "UART2 loop back demonstration\r\n";
 #endif
 #ifdef UART_3
-uint8_t testMessage2[] = "UART3 loop back demonstration\r\n";
+uint8_t testMessage3[] = "UART3 loop back demonstration\r\n";
 #endif
 #ifdef UART_4
-uint8_t testMessage2[] = "UART4 loop back demonstration\r\n";
+uint8_t testMessage4[] = "UART4 loop back demonstration\r\n";
 #endif
 #ifdef UART_5
-uint8_t testMessage2[] = "UART5 loop back demonstration\r\n";
+uint8_t testMessage5[] = "UART5 loop back demonstration\r\n";
 #endif
 #ifdef UART_6
 uint8_t testMessage6[] = "UART6 loop back demonstration\r\n";
 #endif
 #ifdef UART_7
-uint8_t testMessage2[] = "UART7 loop back demonstration\r\n";
+uint8_t testMessage7[] = "UART7 loop back demonstration\r\n";
 #endif
 #ifdef UART_8
-uint8_t testMessage2[] = "UART8 loop back demonstration\r\n";
+uint8_t testMessage8[] = "UART8 loop back demonstration\r\n";
 #endif
 #endif
 
