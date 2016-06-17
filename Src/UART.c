@@ -448,8 +448,8 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
 #endif//UART_3
 		break;
 #endif//USART3
-#ifdef UART3
-		case (uint32_t)UART4:
+#ifdef USART4
+		case (uint32_t)USART4:
 #ifdef UART_4
 		UARTRXCallBackHandler(&UART_4_STRUCT);
 #endif//UART_4
@@ -511,15 +511,15 @@ void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart) {
 #endif//UART_3
 		break;
 #endif//USART3
-#ifdef UART3
-		case (uint32_t)UART4:
+#ifdef USART4
+		case (uint32_t)USART4:
 #ifdef UART_4
 		UARTTXCallBackHandler(&UART_4_STRUCT);
 #endif//UART_4
 		break;
 #endif//USART4
-#ifdef UART5
-		case (uint32_t)UART5:
+#ifdef USART5
+		case (uint32_t)USART5:
 #ifdef UART_5
 		UARTTXCallBackHandler(&UART_5_STRUCT);
 #endif//UART_5
@@ -532,8 +532,8 @@ void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart) {
 #endif//UART_6
 		break;
 #endif//USART6
-#ifdef UART7
-		case (uint32_t)UART7:
+#ifdef USART7
+		case (uint32_t)USART7:
 #ifdef UART_7
 		UARTTXCallBackHandler(&UART_7_STRUCT);
 #endif//UART_7
