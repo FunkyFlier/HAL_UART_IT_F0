@@ -47,10 +47,6 @@
 #define MEMS_INT1_GPIO_Port GPIOC
 #define MEMS_INT2_Pin GPIO_PIN_2
 #define MEMS_INT2_GPIO_Port GPIOC
-#define B1_Pin GPIO_PIN_0
-#define B1_GPIO_Port GPIOA
-#define EXT_RESET_Pin GPIO_PIN_5
-#define EXT_RESET_GPIO_Port GPIOC
 #define LD3_Pin GPIO_PIN_6
 #define LD3_GPIO_Port GPIOC
 #define LD6_Pin GPIO_PIN_7

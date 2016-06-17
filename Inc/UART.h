@@ -24,8 +24,9 @@
 //#define UART_8
 
  */
-//#define UART_1
-//#define UART_3
+#define UART_1
+#define UART_2
+#define UART_3
 #define UART_4
 
 
